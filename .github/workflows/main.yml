@@ -18,7 +18,7 @@ jobs:
         architecture: 'x64'
         check-latest: true
         registry-url: 'https://registry.npmjs.org'
-        scope: '@your-scope'
+        scope: '@my-org'
         token: ${{ secrets.GITHUB_TOKEN }}
         cache: 'npm'
         cache-dependency-path: 'package-lock.json'
